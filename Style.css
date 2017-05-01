@@ -1,4 +1,12 @@
 
+body {
+    background-color: black;
+    background-image: url('Images/WestminsterAssembly.jpg');
+    background-size: 100%;
+    padding:5%;
+    font-family: 'Raleway';
+    }
+/*
 .Parallax {
     background-image: url('Images/Parallax.jpg');
     background-attachment: fixed;
@@ -11,7 +19,7 @@
     @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
-    }
+    } */
 }
     body {
     font-family: 'Raleway';

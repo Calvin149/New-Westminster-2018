@@ -67,7 +67,9 @@
             color:#290000;
            }
     textarea img {height: 100%; width: 100%;}
-<<<<<<< HEAD
+
+  
+
     .box {       background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
                  margin: 3px;
@@ -87,11 +89,7 @@
      .box img:  {
                  width:100%;
                  height:100%;
-=======
-    .box {background: #F4E6D6;
-        border: 0px dotted lightgoldenrodyellow;
-               
->>>>>>> 3edd7cccbff71a7b9bf2f0d2371489737f7a6b50
+
                 }
      .box:hover {background: #BEBDC1;
                 }
@@ -175,6 +173,57 @@
      
      .next:hover a {color:#331302;}
      .next:active a {color:#331302;}
+
+      .back { background: #F4E6D6;
+                 border: 0px dotted lightgoldenrodyellow;
+                 margin: 3px;
+                 padding: 1%;
+                 width: 4%;
+                 text-align: center;
+                 float:right;
+                 top: 0px;   
+                 right: 12%;
+                 margin:0px;
+                 box-shadow: -5px 5px 3px #706D70;  
+                 -moz-box-shadow: -5px 5px 3px #706D70;
+                 -webkit-box-shadow: -5px 5px 3px #706D70;   
+                 position: fixed; }
+                 .back:after {
+                       display:block;
+                       padding-bottom:100%;
+                 }
+         .back img {
+                    width: 100%;
+                    height:100%;
+                }
+        .back:hover {background: #BEBDC1;
+                }
+          .box1 {background: #F4E6D6;
+                 border: 0px dotted lightgoldenrodyellow;
+                 margin: 0px;
+                 float: left;
+                 width: 25%;
+                 text-align: center;
+                 height: 50px;
+                }
+            .box1 a {
+                 padding: 10px; display:block;}
+                 
+            .box1 ul {
+                background:#F4E6D6;
+                padding:10px;
+                list-style: none;
+                z-index: 100;
+                position: relative;
+                text-align: left;
+                display: none;
+                margin-top: 0;
+            }
+
+            .box1:hover ul {
+                display: block;
+            }
+         
       
 
 

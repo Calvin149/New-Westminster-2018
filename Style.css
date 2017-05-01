@@ -1,27 +1,13 @@
 
 body {
+    background-image: url('Images/WestminsterDivines.jpg');
     background-color: black;
-    background-image: url('Images/WestminsterAssembly.jpg');
     background-size: 100%;
     padding:5%;
     font-family: 'Raleway';
     }
-/*
-.Parallax {
-    background-image: url('Images/Parallax.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    }
 
-    @media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    } */
-}
-  
+
  
     a:hover {color: #331302; }
     a {color: #732B05;}

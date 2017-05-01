@@ -70,7 +70,7 @@ body {
            }
     textarea img {height: 100%; width: 100%;}
     .box {background: #F4E6D6;
-                 border: 0px dotted lightgoldenrodyellow;
+        border: 0px dotted lightgoldenrodyellow;
                
                 }
      .box:hover {background: #BEBDC1;
@@ -79,7 +79,7 @@ body {
                 }
      .box:hover a {color:#331302;}
      .box:active a {color:#331302;}
-      .box ul {
+     .box ul {
                 background:#F4E6D6;
                 padding:10px;
                 list-style: none;
@@ -90,20 +90,69 @@ body {
                 margin-top: 0;
             }
 
-            .box:hover ul {
+    .box:hover ul {
                 display: block;
             }
 
-             .box:hover {background: #BEBDC1;
+   .home {background: #F4E6D6;
+                 border: 0px dotted lightgoldenrodyellow;
+                 margin: 3px;
+                 padding: 1%;
+                 width: 4%;
+                 text-align: center;
+                 float:right;
+                 top: 0px;  
+                 right: 0px;
+                 margin:0px;
+                 box-shadow: -5px 5px 3px #706D70;  
+                 -moz-box-shadow: -5px 5px 3px #706D70;
+                 -webkit-box-shadow: -5px 5px 3px #706D70;   
+                 position: fixed; }
+    .home:after {
+                       display:block;
+                       padding-bottom:100%;
+                 }
+
+    .next { background: #F4E6D6;
+                 border: 0px dotted lightgoldenrodyellow;
+                 margin: 3px;
+                 padding: 1%;
+                 width: 4%;
+                 text-align: center;
+                 float:right;
+                 top: 0px;   
+                 right: 6%;
+                 margin:0px;
+                 box-shadow: -5px 5px 3px #706D70;  
+                 -moz-box-shadow: -5px 5px 3px #706D70;
+                 -webkit-box-shadow: -5px 5px 3px #706D70;   
+                 position: fixed; }
+    .next:after {
+                       display:block;
+                       padding-bottom:100%;
+                 }
+
+
+    .home img {
+                    width: 100%;
+                    height:100%;
+                }
+    .next img {
+                    width: 100%;
+                    height:100%;
+                }
+    .home:hover {background: #BEBDC1;
+                }
+    .next:hover {background: #BEBDC1;
                 }
      .home:active {background: #BEBDC1;
                 }
-     .home:hover {background: #BEBDC1;}
+  
      .home:hover a {color:#331302;}
      .home:active a {color:#331302;}
      .next:active {background: #BEBDC1;
                 }
-     .next:hover {background: #BEBDC1;}
+     
      .next:hover a {color:#331302;}
      .next:active a {color:#331302;}
       

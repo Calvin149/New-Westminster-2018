@@ -13,9 +13,7 @@
            }
            #title2 {text-align:center; font-family: 'Josefin Sans'; font-size: 15pt;
            }
-           #text {text-align: left;
-                  text-indent:15px;
-               }
+           textarea {padding:15px;}
            
           a:link {text-decoration: none;}
           .box a:hover {background-color:#BEBDC1;
@@ -28,10 +26,10 @@
         <div id="title2"> <i> One of the most biblical statements of faith in the world </i> </div> <hr/>
         
          
-        <div class="box"> <a href="Westminster Shorter Catechism/1.html">The Catechism</a> </div>
-        <div class="box"> <a href="Table of Members.html">The Westminster Assembly</a> </div>
-        <div class="box"><a href="Westminster Catechism History.html">History</a> </div>
-        <div class="box"><a>Recordings </a>
+        <div class="box1"> <a href="Westminster Shorter Catechism/1.html">The Catechism</a> </div>
+        <div class="box1"> <a href="Table of Members.html">The Westminster Assembly</a> </div>
+        <div class="box1"><a href="Westminster Catechism History.html">History</a> </div>
+        <div class="box1"><a>Recordings </a>
             <ul> 
                 <li><a href="Westminster Catechism Recordings.html">Immanuel Presbyterian Church</a></li>
                 <li><a href="Westminster Catechism Recordings.html">Sinclair Ferguson</a></li>
@@ -44,9 +42,12 @@
 
         <form method="post">
             <br /> <h3> Contact us: </h3>
-            <input type="email" id="email" placeholder="e.g. westminstercatechism@outlook.com" />
-            <br /> <br />
-            <textarea id="text"></textarea>
+            <div class="form-group">
+            <label for="exampleInputEmail2"></label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="westminstercatechism@westminsterstandards.com">
+            </div>
+            <br /> 
+            <textarea class="form-control" rows="3"></textarea>
             <br /> <br />
             <button>Contact</button>
 

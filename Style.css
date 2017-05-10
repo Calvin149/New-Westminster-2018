@@ -218,12 +218,15 @@
                 z-index: 100;
                 position: relative;
                 text-align: left;
-                display: none;
+                display:block;
+                opacity: 0;
+                transition: opacity .3s;
                 margin-top: 0;
             }
 
             .box1:hover ul {
                 display: block;
+                opacity: 1;
             }
             .box1:hover {background: #BEBDC1;
                 }

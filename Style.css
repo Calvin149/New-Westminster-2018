@@ -68,50 +68,6 @@
            }
     textarea img {height: 100%; width: 100%;}
 
-  
-
-    .box {       background: #F4E6D6;
-                 border: 0px dotted lightgoldenrodyellow;
-                 margin: 3px;
-                 padding: 10px;
-                 width: 50px;
-                 text-align: center;
-                 height: 50px;
-                 float:right;
-                 top: 0px;
-                 right: 0px;
-                 margin: auto;
-                 box-shadow: -5px 5px 3px #706D70;  
-                 -moz-box-shadow: -5px 5px 3px #706D70;
-                 -webkit-box-shadow: -5px 5px 3px #706D70;   
-                 position: fixed;          
-                }
-     .box img:  {
-                 width:100%;
-                 height:100%;
-
-                }
-     .box:hover {background: #BEBDC1;
-                }
-     .box:active {background: #BEBDC1;
-                }
-     .box:hover a {color:#331302;}
-     .box:active a {color:#331302;}
-     .box ul {
-                background:#F4E6D6;
-                padding:10px;
-                list-style: none;
-                z-index: 100;
-                position: relative;
-                text-align: left;
-                display: none;
-                margin-top: 0;
-            }
-
-    .box:hover ul {
-                display: block;
-            }
-
    .home {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
                  margin: 3px;
@@ -200,7 +156,7 @@
                 }
                   
                 }
-          .box1 {background: #F4E6D6;
+          .box {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
                  margin: 0px;
                  float: left;
@@ -208,10 +164,10 @@
                  text-align: center;
                  height: 50px;
                 }
-            .box1 a {
+            .box a {
                  padding: 10px; display:block;}
                  
-            .box1 ul {
+            .box ul {
                 background:#F4E6D6;
                 padding:10px;
                 list-style: none;
@@ -224,13 +180,13 @@
                 margin-top: 0;
             }
 
-            .box1:hover ul {
+            .box:hover ul {
                 display: block;
                 opacity: 1;
             }
-            .box1:hover {background: #BEBDC1;
+            .box:hover {background: #BEBDC1;
                 }
-            .box1:hover ul li {background: #BEBDC1;}
+            .box:ul hover li {background: #BEBDC1;}
 
       
 

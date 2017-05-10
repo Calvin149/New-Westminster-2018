@@ -183,7 +183,7 @@
             }
             .box:hover {background: #BEBDC1;
                 }
-            .box:hover ul {background: #BEBDC1;}
+            .box:ul hover li {background: #BEBDC1;}
 
       
 

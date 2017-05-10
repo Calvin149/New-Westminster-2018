@@ -155,7 +155,6 @@
         .back:hover {background: #BEBDC1;
                 }
                   
-                }
           .box {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
                  margin: 0px;
@@ -165,7 +164,8 @@
                  height: 50px;
                 }
             .box a {
-                 padding: 10px; display:block;}
+                 padding: 10px; display:block;
+            }
                  
             .box ul {
                 background:#F4E6D6;

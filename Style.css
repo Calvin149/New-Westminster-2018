@@ -210,8 +210,6 @@
                 }
             .box1 a {
                  padding: 10px; display:block;}
-            .box1:hover a {color:#331302;}
-            .box1:active a {color:#331302;}
                  
             .box1 ul {
                 background:#F4E6D6;

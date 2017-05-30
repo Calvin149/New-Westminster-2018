@@ -164,8 +164,46 @@
                  text-align: center;
                  height: 50px;
                 }
+
+          .box1 {background: #F4E6D6;
+                 border: 0px dotted lightgoldenrodyellow;
+                 box-shadow: 5px 5px 5px gray;
+                 margin: 0px;
+                 float: left;
+                 width: 25%;
+                 text-align: center;
+                 height: 50px;
+                 }
+            .box1 a{ padding-top: 15px; 
+                 padding-bottom: 10px;
+                 display:block;
+                 font-size: 16px;
+            }
+            .box1 ul{ background:#F4E6D6;
+                padding:10px;
+                list-style: none;
+                z-index: 100;
+                position: relative;
+                text-align: left;
+                visibility:hidden;
+                opacity: 0;
+                transition: opacity .25s, height .25s;
+                height: 0px;
+                margin-top: 0;
+                }
+            .box1:hover ul{
+                visibility:visible;
+                opacity: 1;
+                height: 215px;
+                width:207px;
+                }
+            .box1:hover{background: #BEBDC1;
+            }
             .box a {
-                 padding: 10px; display:block;
+                 padding-top: 16px; 
+                 padding-bottom: 10px;
+                 display:block;
+                 font-size: 16px;
             }
                  
             .box ul {
@@ -175,23 +213,33 @@
                 z-index: 100;
                 position: relative;
                 text-align: left;
-                display:block;
+                visibility:hidden;
                 opacity: 0;
-                transition: opacity .35s;
                 height: 0px;
-                transition: height .35s;
+                transition: opacity .25s, height .25s;
                 margin-top: 0;
             }
 
             .box:hover ul {
-                display: block;
+                visibility: visible;
                 opacity: 1;
-                height: 140px;
+                height: 150px;
+                width:207px;
             }
             .box:hover {background: #BEBDC1;
                 }
-            .box:ul hover li {background: #BEBDC1;
+            .box ul li:hover {
+                background-color: #BEBDC1;
+                width:217px;
                               }
+            .box1 ul li:hover {
+                background-color: #BEBDC1;
+                width:217px;
+            }
+            #text {
+                margin-top:20px;
+                font-size:14pt;
+            }
             
 
       

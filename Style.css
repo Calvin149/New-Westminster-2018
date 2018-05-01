@@ -10,7 +10,7 @@
     a:hover {color: #331302; }
     a {color: #732B05;}
 
-    button{
+    /*button{
                display:block;
                float:right;
                width:20%;
@@ -24,12 +24,13 @@
             color: #732B05;
                
            }
+           */
     button:active{
                background-color: #BEBDC1;}
     button:hover {background-color: #BEBDC1;
                 color:#331302;
                 }
-    input {
+    /*input {
                width: 100%;
                padding: 10px;
                font-size: 11px;
@@ -38,7 +39,7 @@
                -webkit-border-radius: 6px;
                -moz-border-radius: 6px;
 
-           }
+           } */
           
     input[type="email"] {
                color: #290000;
@@ -96,9 +97,8 @@
 
         .back, .home, .next, img {max-width: 100%; max-height:100%;} 
                   
-          .box {background: #F4E6D6;
+          .box {
                  border: 0px dotted lightgoldenrodyellow;
-                 box-shadow: 5px 5px 5px gray;
                  margin: 0px;
                  float: left;
                  width: 25%;
@@ -106,13 +106,8 @@
                  height: 50px;
                 }
 
-          .box1 {background: #F4E6D6;
+          .box1 {
                  border: 0px dotted lightgoldenrodyellow;
-                 box-shadow: 5px 5px 5px gray;
-                 margin: 0px;
-                 float: left;
-                 width: 25%;
-                 text-align: center;
                  height: 50px;
                  }
             .box1 a{ padding-top: 15px; 

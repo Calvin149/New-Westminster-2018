@@ -1,14 +1,18 @@
 
+    @font-face {
+        font-family: CrimsonRoman;
+        src: url(Crimson-Roman.otf);
+    }
     body {
-    background-image: url('Images/WestminsterAssembly.jpg');
-    background-color: black;
+    background-color: #eeeeee;
     background-size: 100%;
     padding:5%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'CrimsonRoman', sans-serif;
     }
 
-    a:hover {color: #331302; }
-    a {color: #732B05;}
+
+    a:not([href]):not([tabindex]),
+    a, a:hover, a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {color: #FFFFFF;}
 
     /*button{
                display:block;
@@ -104,6 +108,7 @@
                  width: 25%;
                  text-align: center;
                  height: 50px;
+                 background-color: #567878;
                 }
 
           .box1 {
@@ -176,23 +181,55 @@
                 margin-top:20px;
                 font-size:14pt;
             }
-            
+                        
 
-      
-
-
-
-h3 {color:#A51C04}
-
-button{
-    height: 50px;
-}
-
-.chart {color:#590F02}
-
-.qu {color:rgb(217,55,32)}
+                
 
 
+
+            h3 {color:#A51C04}
+
+            button{
+                height: 50px;
+            }
+
+            .chart {color:#590F02}
+
+            .qu {color:rgb(217,55,32)}
+
+
+            #title {
+                text-align: center;
+                color: #484132;
+                text-transform: uppercase;
+                word-spacing: 0.3em;
+                font-family: 'CrimsonRoman', sans-serif;
+                font-size: 20pt;
+            }
+
+            #title2 {
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: 15pt;
+                font-style: italic;
+            }
+
+            textarea {
+                padding: 15px;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            .box a:hover {
+                background-color: #537575;
+                display: block;
+            }
+
+            .navbar {
+                padding: 0;
+            }
 
 
 

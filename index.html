@@ -1,83 +1,49 @@
 <html>
 <head>
     <title> Westminster Catechism </title>
-    <link href="Style.css" type="text/css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="Style.css" type="text/css" rel="stylesheet" />
 
-    <style>
-        /* menu */
-        
-        #title {
-            text-align: center;
-            color: #A51C04;
-            text-transform: uppercase;
-            word-spacing: 0.3em;
-            font-family: 'Raleway', sans-serif;
-            font-size: 20pt;
-        }
-        
-        #title2 {
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-size: 15pt;
-        }
-        
-        textarea {
-            padding: 15px;
-        }
-        
-        a:link {
-            text-decoration: none;
-        }
-        
-        .box a:hover {
-            background-color: #BEBDC1;
-            display: block;
-        }
-    </style>
 </head>
 
 <body>
     <div class="Parallax"></div>
     <div id="title"> Westminster Shorter Catechism</div>
-    <div id="title2"> <i> One of the most biblical statements of faith in the world </i> </div>
+    <div id="title2">One of the most biblical statements of faith in the world </div>
 
 
-    <nav class="navbar navbar-light bg-light" style="padding: 0">
-            <div class="dropdown">
-                    <div class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <a>The Catechism</a>
+    <nav class="navbar navbar-light bg-light">
+            <div class="box">
+                <div class="dropdown">
+                        <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                The Catechism
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="Catechism/1.html">Nos. 1-20</a>
+                        <a class="dropdown-item" href="Catechism/2.html">Nos. 21-40</a>
+                        <a class="dropdown-item" href="Catechism/3.html">Nos. 41-60</a>
+                        <a class="dropdown-item" href="Catechism/4.html">Nos. 61-80</a>
+                        <a class="dropdown-item" href="Catechism/5.html">Nos. 81-107</a>
                     </div>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="Catechism/1.html">Nos. 1-20</a>
-                    <a class="dropdown-item" href="Catechism/2.html">Nos. 21-40</a>
-                    <a class="dropdown-item" href="Catechism/3.html">Nos. 41-60</a>
-                    <a class="dropdown-item" href="Catechism/4.html">Nos. 61-80</a>
-                    <a class="dropdown-item" href="Catechism/5.html">Nos. 81-107</a>
                 </div>
             </div>
             <div class="box"> <a href="Members.html">The Westminster Assembly</a> </div>
             <div class="box"><a href="History.html">History</a> </div>
-            <div class="box"><a>Recordings </a>
-                <ul>
-                    <li><a href="Recordings/Immanuel/1.html">Immanuel Presbyterian Church</a></li>
-                    <li><a href="Recordings/Ferguson/1.html">Sinclair Ferguson</a></li>
-                    <li><a href="Recordings/Underground/1.html">Sons of the Underground</a></li>
-                </ul>
+            <div class="box"><div class="dropdown">
+                    <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recordings
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="Recordings/Immanuel/1.html">Immanuel Presbyterian Church</a>
+                    <a class="dropdown-item" href="Recordings/Ferguson/1.html">Sinclair Ferguson</a>
+                    <a class="dropdown-item" href="Recordings/Underground/1.html">Sons of the Underground</a>
+                </div>
+            </div>
+        </div>
     </nav>
 
-    <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-    </div>
 
     <br /> <br /><br />
     <p id="text">The Westminster Shorter Catechism is one of Presbyterianism's most important documents. It is part of the official standards

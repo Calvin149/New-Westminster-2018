@@ -230,6 +230,26 @@
             .navbar {
                 padding: 0;
             }
+            #homeimage {
+                background-image: url(Images/1530.jpg);
+                background-position: 50% 65%;
+                height: 40%;
+                background-size:cover;
+            }
+            .brown {
+                background-color: #453829;
+
+            }
+            .homebox {
+                height: 225px;
+                width: 225px;
+            }
+            .orangybrown {
+                background-color: #947D3B;
+            }
+            .beige {
+                background-color: #E3D7C1;
+            }
 
 
 

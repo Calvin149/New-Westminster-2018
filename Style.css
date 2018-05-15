@@ -14,63 +14,7 @@
     a:not([href]):not([tabindex]),
     a, a:hover, a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {color: #FFFFFF;}
 
-    /*button{
-               display:block;
-               float:right;
-               width:20%;
-               margin: auto;
-               padding: 10px;
-               background:#F4E6D6;
-               border-radius: 6px;
-               -webkit-border-radius: 6px;
-               -moz-border-radius: 6px;
-            border:0;
-            color: #732B05;
-               
-           }
-           */
-    button:active{
-               background-color: #BEBDC1;}
-    button:hover {background-color: #BEBDC1;
-                color:#331302;
-                }
-    /*input {
-               width: 100%;
-               padding: 10px;
-               font-size: 11px;
-               font-family:'Segoe UI', sans-serif;
-               border-radius: 6px;
-               -webkit-border-radius: 6px;
-               -moz-border-radius: 6px;
-
-           } */
           
-    input[type="email"] {
-               color: #290000;
-               /*
-               background-image: url("Images/Email Symbol.jpg");
-               background-repeat:no-repeat;
-               background-position-x:0px;
-               background-position-y:0%;
-               */
-               border: 0px;
-           }
-    input[type="email"] img {height: 100%; width: 100%;}
-    textarea { 
-               border-radius: 6;
-               height: 100px;
-               width:100%;
-               /*Out
-               background-image: url("IImages/Hand Symbol.png");
-                  background-repeat:no-repeat;
-               background-position-x:0px;
-               background-position-y:0%;
-               */
-               padding:15px 0px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            border: 0px;
-            color:#290000;
-           }
     textarea img {height: 100%; width: 100%;}
 
     .next, .back, .home, :after {
@@ -110,92 +54,17 @@
                  height: 50px;
                  background-color: #567878;
                 }
-
-          .box1 {
-                 border: 0px dotted lightgoldenrodyellow;
-                 height: 50px;
-                 }
-            .box1 a{ padding-top: 15px; 
-                 padding-bottom: 10px;
-                 display:block;
-                 font-size: 16px;
-            }
-            .box1 ul{ background:#F4E6D6;
-                padding:10px;
-                list-style: none;
-                z-index: 100;
-                position: relative;
-                text-align: left;
-                visibility:hidden;
-                opacity: 0;
-                transition: opacity .25s, height .25s;
-                height: 0px;
-                margin-top: 0;
-                }
-            .box1:hover ul{
-                visibility:visible;
-                opacity: 1;
-                height: 215px;
-                width:207px;
-                }
-            .box1:hover{background: #BEBDC1;
-            }
             .box a {
                  padding-top: 16px; 
                  padding-bottom: 10px;
                  display:block;
                  font-size: 16px;
             }
-                 
-            .box ul {
-                background:#F4E6D6;
-                padding:10px;
-                list-style: none;
-                z-index: 100;
-                position: relative;
-                text-align: left;
-                visibility:hidden;
-                opacity: 0;
-                height: 0px;
-                transition: opacity .25s, height .25s;
-                margin-top: 0;
-            }
 
-            .box:hover ul {
-                visibility: visible;
-                opacity: 1;
-                height: 150px;
-                width:207px;
-            }
-            .box:hover {background: #BEBDC1;
-                }
-            .box ul li:hover {
-                background-color: #BEBDC1;
-                width:217px;
-                              }
-            .box1 ul li:hover {
-                background-color: #BEBDC1;
-                width:217px;
-            }
             #text {
                 margin-top:20px;
                 font-size:14pt;
             }
-                        
-
-                
-
-
-
-            h3 {color:#A51C04}
-
-            button{
-                height: 50px;
-            }
-
-            .chart {color:#590F02}
-
-            .qu {color:rgb(217,55,32)}
 
 
             #title {
@@ -248,7 +117,7 @@
             .orangybrown {
                 background-color: #947D3B;
             }
-            .cyan {
+            .olivegreen {
                 background-color: #63603D;
             }
             h1 {
@@ -258,6 +127,7 @@
                 background-color: transparent;
                 border-style: solid;
                 margin: 10px auto;
+                height: 50px;
             }
             button:hover {
                 background-color: rgba(201, 200, 200, 0.151);

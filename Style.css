@@ -6,7 +6,7 @@
     body {
     background-color: #eeeeee;
     background-size: 100%;
-    padding:5%;
+    padding-top: 2%;
     font-family: 'CrimsonRoman', sans-serif;
     }
 
@@ -241,14 +241,39 @@
 
             }
             .homebox {
-                height: 225px;
-                width: 225px;
+                height: 250px;
+                width: 250px;
+                color: white;
             }
             .orangybrown {
                 background-color: #947D3B;
             }
-            .beige {
-                background-color: #E3D7C1;
+            .cyan {
+                background-color: #63603D;
+            }
+            h1 {
+                font-size: 1.50rem;
+            }
+            button {
+                background-color: transparent;
+                border-style: solid;
+                margin: 10px auto;
+            }
+            button:hover {
+                background-color: rgba(201, 200, 200, 0.151);
+            }
+            .homebox a {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .homebox div {
+                padding: 1rem;
+            }
+            .darktext {
+                color: black;
+            }
+            .padding-top {
+                padding-top: 2rem;
             }
 
 

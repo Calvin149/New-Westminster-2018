@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../jquery.smooth-scroll.js"></script>
     <link href="../Style.css" type="text/css" rel="stylesheet" />
 
 </head>
@@ -28,7 +29,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="1.html#nos1-20">Nos. 1-20</a>
-                    <a class="dropdown-item" href="1.html#nos21-40">Nos. 21-40</a>
+                    <a id="anos21-40" class="dropdown-item" href="1.html#nos21-40">Nos. 21-40</a>
                     <a class="dropdown-item" href="1.html#nos41-60">Nos. 41-60</a>
                     <a class="dropdown-item" href="1.html#nos61-80">Nos. 61-80</a>
                     <a class="dropdown-item" href="1.html#nos81-107">Nos. 81-107</a>
@@ -171,7 +172,7 @@
                     <ul class="qu">
                         <li> The covenant being made with Adam, not only for himself, but for his posterity; all mankind, descending
                             from him by ordinary generation, sinned in him, and fell with him, in his first transgression.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 17. Into what estate did the fall bring mankind?</b>
@@ -214,7 +215,7 @@
                     <ul class="qu">
                         <li> The only redeemer of God's elect is the Lord Jesus Christ, who, being the eternal Son of God, became
                             man, and so was, and continueth to be, God and man in two distinct natures, and one person, forever.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 22. How did Christ, being the Son of God, become man?</b>
@@ -321,7 +322,8 @@
                     </ul>
                     <li class="chart">
                         <b> 36. What are the benefits which in this life do accompany or flow from justification, adoption, and
-                            sanctification?</b>
+                            sanctification?
+                        </b>
                     </li>
                     <ul class="qu">
                         <li> The benefits which in this life do accompany or flow from justification, adoption, and sanctification,
@@ -334,7 +336,7 @@
                     <ul class="qu">
                         <li> The souls of believers are at their death made perfect in holiness, and do immediately pass into
                             glory; and their bodies, being still united to Christ, do rest in their graves till the resurrection.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 38. What benefits do believers recieve from Christ at the resurrection?</b>
@@ -342,7 +344,7 @@
                     <ul class="qu">
                         <li> At the resurrection, believers, being raised up in glory, shall be openly acknowledged, and acquitted
                             in the day of judgment, and made perfectly blessed in the full enjoying of God to all eternity.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 39. What is the duty which God requireth of man? </b>
@@ -408,7 +410,7 @@
                     <ul class="qu">
                         <li> The first commandment forbiddeth the denying, or not worshipping and glorifying, the true God, as
                             God, and our God; and the giving the worship and glory to any other, which is due to him alone.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 48. What are we especially taught by these words, "before me," in the first commandment?</b>
@@ -575,7 +577,7 @@
                     </li>
                     <ul class="qu">
                         <li> The sixth commandment requireth all lawful endeavors to prseerve our own life, and the life of others.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 69. What is forbidden in the sixth commandment? </b>
@@ -738,7 +740,7 @@
                     <ul class="qu">
                         <li> That the word may become effectual to salvation, we must attend thereunto with diligence, preparation
                             and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 91. How do the sacraments become effectual means of salvation?</b>
@@ -794,7 +796,7 @@
                         <li> It is required of them that would worthily partake of the Lord's Supper, that they examine themselves
                             of their knowledge to discern the Lord's body, of their faith to feed upon him, of their repentance,
                             love, and new obedience; lest, coming unworthily, they eat and drink judgment to themselves.
-                            </li>
+                        </li>
                     </ul>
                     <li class="chart">
                         <b> 98. What is prayer?</b>
@@ -882,7 +884,6 @@
             </div>
         </div>
     </div>
-    <script src="../jquery.smooth-scroll.js"></script>
     <script>
         // Need this for "newer" versions of jQuery, which have removed $.browser
         $.browser = $.browser || { msie: false };
@@ -891,14 +892,17 @@
         $('a').smoothScroll();
     </script>
     <script>
-    // Call $.smoothScroll if location.hash starts with "#smoothScroll"
-var reSmooth = /^#smoothScroll/;
-var id;
-if (reSmooth.test(location.hash)) {
-  // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-  id = '#' + location.hash.replace(reSmooth, '');
-  $.smoothScroll({ scrollTarget: id,});
-}
+        // Call $.smoothScroll if location.hash starts with "#smoothScroll"
+        var reSmooth = /^#smoothScroll/;
+        var id;
+        if (reSmooth.test(location.hash)) {
+            // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+            //1.html#nos1-20
+            id = '#' + location.hash.replace(reSmooth, '');
+
+            $.smoothScroll({ scrollTarget: id });
+
+        }
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

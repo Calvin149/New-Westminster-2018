@@ -8,6 +8,7 @@
     background-size: 100%;
     padding-top: 2%;
     font-family: 'CrimsonRoman', sans-serif;
+    font-size: 1.15rem;
     }
 
 
@@ -154,5 +155,24 @@
             h3 {
                 text-align: center;
             }
-
-
+            .no-margin {
+                margin-top: 0px;
+            }
+            h6 {
+                font-weight: bold;
+            }
+            .reg {
+                color: #567878;
+            }
+            .reg:hover {
+                color: #435e5e
+            }
+            .homebox div {
+                padding: 10px;
+            }
+            .homebox div button {
+                position: absolute;
+                bottom: 10px;
+                left: 32.5%;
+                right: auto;
+            }

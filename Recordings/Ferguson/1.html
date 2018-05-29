@@ -233,6 +233,36 @@
     </div>
 
     </div>
+    <script src="jquery.smooth-scroll.js"></script>
+    <script>
+        // Need this for "newer" versions of jQuery, which have removed $.browser
+        $.browser = $.browser || { msie: false };
+    </script>
+    <script>
+        $('a').smoothScroll();
+    </script>
+    <script>
+    $('a[href="../../Catechism/1.html#nos21-40"]').attr('href', function() {
+  var hrefParts = this.href.split(/#/);
+  hrefParts[1] = 'smoothScroll' + hrefParts[1];
+  return hrefParts.join('#');
+});
+$('a[href="../../Catechism/1.html#nos41-60"]').attr('href', function() {
+  var hrefParts = this.href.split(/#/);
+  hrefParts[1] = 'smoothScroll' + hrefParts[1];
+  return hrefParts.join('#');
+});
+$('a[href="../../Catechism/1.html#nos61-80"]').attr('href', function() {
+  var hrefParts = this.href.split(/#/);
+  hrefParts[1] = 'smoothScroll' + hrefParts[1];
+  return hrefParts.join('#');
+});
+$('a[href="../../Catechism/1.html#nos81-107"]').attr('href', function() {
+  var hrefParts = this.href.split(/#/);
+  hrefParts[1] = 'smoothScroll' + hrefParts[1];
+  return hrefParts.join('#');
+});
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

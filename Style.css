@@ -58,7 +58,7 @@
             .box a {
                  padding-top: 16px; 
                  padding-bottom: 10px;
-                 display:block;
+                 display: inline-block;
                  font-size: 16px;
             }
 
@@ -175,4 +175,22 @@
                 bottom: 10px;
                 left: 32.5%;
                 right: auto;
+            }
+            .dropdown {
+                display: inline-block;
+            }
+            .box:hover {
+                background-color: #537575;
+            }
+            .sam-ruth {
+                background: url(Images/Sam-Ruth.jpg);
+                background-size: 400px;
+                background-repeat: no-repeat;
+                height: 400px;
+            }
+            .tom-good {
+                background: url(Images/tom-good.jpg);
+                background-size: 400px;
+                height: 400px;
+                background-repeat: no-repeat;
             }

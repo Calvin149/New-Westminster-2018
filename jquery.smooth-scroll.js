@@ -16,7 +16,8 @@
       // Browser globals
       factory(jQuery);
     }
-  }(function($) {
+}
+(function($) {
   
     var version = '2.2.0';
     var optionOverrides = {};
@@ -143,7 +144,7 @@
   
       smoothScroll: function(options, extra) {
         options = options || {};
-  
+        options = $.fn.smoothScroll.defaults;
         if (options === 'options') {
           if (!extra) {
             return this.first().data('ssOpts');
@@ -257,6 +258,12 @@
     };
   
     $.smoothScroll = function(options, px) {
+      var passed = false;
+      function check() {
+        if (!passed) {
+          passed = true;
+          setTimeout (check, 13);
+        }
       if (options === 'options' && typeof px === 'object') {
         return $.extend(optionOverrides, px);
       }
@@ -339,6 +346,8 @@
       } else {
         onAfterScroll(opts);
       }
+    }
+    check();
     };
   
     $.smoothScroll.version = version;
@@ -353,5 +362,5 @@
   
     // default options
     $.fn.smoothScroll.defaults = defaults;
-  
+
   }));
